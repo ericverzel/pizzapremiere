@@ -126,10 +126,11 @@ blockquote {
   margin-bottom: 80px;
   padding-top: 35px;
   padding-bottom: 0px;
-  background-image: url('../images/photo-1467189386127-c4e5e31ee213.jpg');
+  background-image: url('../images/pizza.jpeg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .content-section.cta {
