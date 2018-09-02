@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>checked</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="10.4295 16 0.06 16 0.06 0.04 20.799 0.04 20.799 16 10.4295 16"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checked">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Clip-2"></g>
+            <path d="M0.238,8.801 C0.078,8.641 0,8.398 0,8.238 C0,8.078 0.078,7.84 0.238,7.68 L1.359,6.559 C1.68,6.238 2.16,6.238 2.48,6.559 L2.559,6.641 L6.961,11.359 C7.121,11.52 7.359,11.52 7.52,11.359 L18.238,0.238 L18.32,0.238 C18.641,-0.078 19.121,-0.078 19.441,0.238 L20.559,1.359 C20.879,1.68 20.879,2.16 20.559,2.48 L7.762,15.762 C7.602,15.922 7.441,16 7.199,16 C6.961,16 6.801,15.922 6.641,15.762 L0.398,9.039 L0.238,8.801 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
