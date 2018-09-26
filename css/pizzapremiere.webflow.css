@@ -1818,7 +1818,14 @@ html.w-mod-js *[data-ix="slide-up-on-load"] {
     font-size: 23px;
   }
   .panier-totprice-wrapper {
+    left: 49px;
+    top: 0px;
+    right: 49px;
+    bottom: auto;
+    display: block;
     height: 40px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .cart-wrapper {
     margin-right: 15px;
