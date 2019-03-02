@@ -127,16 +127,11 @@ blockquote {
   margin-bottom: 80px;
   padding-top: 35px;
   padding-bottom: 0px;
-  background-image: url('../images/pizza.jpeg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 
 .content-section.cta {
   padding-bottom: 75px;
-  background-image: -webkit-linear-gradient(270deg, rgba(32, 39, 47, .97), rgba(32, 39, 47, .97)), url('../images/IMG_3471.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 39, 47, .97)), to(rgba(32, 39, 47, .97))), url('../images/IMG_3471.jpg');
   background-image: linear-gradient(180deg, rgba(32, 39, 47, .97), rgba(32, 39, 47, .97)), url('../images/IMG_3471.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
@@ -161,9 +156,9 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(32, 39, 47, .8), rgba(32, 39, 47, .8)), url('../images/IMG_3934.jpg');
-  background-image: linear-gradient(180deg, rgba(32, 39, 47, .8), rgba(32, 39, 47, .8)), url('../images/IMG_3934.jpg');
-  background-position: 0px 0px, 50% 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 39, 47, .8)), to(rgba(32, 39, 47, .8))), url('../images/IMG_3471.jpg');
+  background-image: linear-gradient(180deg, rgba(32, 39, 47, .8), rgba(32, 39, 47, .8)), url('../images/IMG_3471.jpg');
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
@@ -237,11 +232,6 @@ blockquote {
   margin-bottom: 0px;
 }
 
-.underline.italian {
-  background-image: -webkit-linear-gradient(0deg, #009246, #fdfdfd 46%, #fff 55%, #ce2b37);
-  background-image: linear-gradient(90deg, #009246, #fdfdfd 46%, #fff 55%, #ce2b37);
-}
-
 .scroll-arrow {
   position: absolute;
   left: 0px;
@@ -312,10 +302,10 @@ blockquote {
 }
 
 .flex-wrapper.space-between {
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .flex-wrapper.contact-details {
@@ -337,6 +327,8 @@ blockquote {
 
 .intro {
   width: 32%;
+  margin-right: -11px;
+  margin-left: -11px;
 }
 
 .intro-image {
@@ -349,8 +341,8 @@ blockquote {
   width: 100%;
   height: 300px;
   background-image: url('../images/IMG_3470.jpg');
-  background-position: 50% 50%;
-  background-size: auto;
+  background-position: 100% 50%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -360,12 +352,13 @@ blockquote {
 
 .intro-image._1 {
   background-image: url('../images/IMG_3471.jpg');
-  background-position: 50% 50%;
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .intro-image._3 {
   background-image: url('../images/IMG_3574.jpg');
-  background-position: 50% 50%;
+  background-position: 100% 50%;
 }
 
 .intro-text {
@@ -592,6 +585,8 @@ blockquote {
   display: flex;
   width: 32.5%;
   min-height: 380px;
+  margin-right: 10px;
+  margin-left: 10px;
   padding: 33px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -606,7 +601,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-linear-gradient(270deg, rgba(32, 39, 47, .97), rgba(32, 39, 47, .97)), url('../images/IMG_3471.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 39, 47, .97)), to(rgba(32, 39, 47, .97))), url('../images/IMG_3471.jpg');
   background-image: linear-gradient(180deg, rgba(32, 39, 47, .97), rgba(32, 39, 47, .97)), url('../images/IMG_3471.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, auto;
@@ -615,13 +610,13 @@ blockquote {
 }
 
 .service-box.service-box-2 {
-  background-image: -webkit-linear-gradient(270deg, null, null), url('../images/IMG_3574.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/IMG_3574.jpg');
   background-image: linear-gradient(180deg, null, null), url('../images/IMG_3574.jpg');
   background-size: auto, 700px;
 }
 
 .service-box.service-box-3 {
-  background-image: -webkit-linear-gradient(270deg, null, null), url('../images/IMG_3574.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/IMG_3574.jpg');
   background-image: linear-gradient(180deg, null, null), url('../images/IMG_3574.jpg');
   background-size: auto, 700px;
 }
@@ -885,11 +880,12 @@ blockquote {
 }
 
 ._33-percent-column.top-center.w--current {
-  padding-top: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 ._33-percent-column.top-left {
-  padding-top: 30px;
+  padding-top: 50px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -901,7 +897,7 @@ blockquote {
 }
 
 ._33-percent-column.top-right {
-  padding-top: 30px;
+  padding-top: 50px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
@@ -1011,10 +1007,11 @@ blockquote {
 .menu-background {
   position: relative;
   overflow: auto;
-  padding: 50px 50px 35px;
+  padding: 22px 50px 35px;
   border: 2px solid #e7e7e7;
   border-radius: 5px;
   background-color: #fff;
+  box-shadow: 1px 1px 50px 0 rgba(0, 0, 0, .11);
 }
 
 .title-and-price {
@@ -1085,6 +1082,8 @@ blockquote {
 }
 
 .nav-menu.no-top-line {
+  padding-right: 50px;
+  padding-left: 50px;
   border-top-style: none;
 }
 
@@ -1255,6 +1254,7 @@ blockquote {
   right: 0px;
   display: none;
   background-color: #fff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .2);
 }
 
 .checkmark {
@@ -1316,6 +1316,10 @@ blockquote {
   margin-top: 25px;
 }
 
+.button.top-border.greenbtn {
+  color: #fff;
+}
+
 .button.dark {
   background-color: #20272f;
   color: #fc0;
@@ -1336,14 +1340,14 @@ blockquote {
 }
 
 .text-block {
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5)));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
 }
 
 .nouveau {
   padding: 5px;
   border-radius: 85px;
-  background-image: -webkit-linear-gradient(270deg, #fc0, #fc0);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fc0), to(#fc0));
   background-image: linear-gradient(180deg, #fc0, #fc0);
   color: #000;
   font-size: 12px;
@@ -1372,7 +1376,7 @@ blockquote {
   width: 100px;
   height: 100px;
   border: 1px solid #000;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .09), rgba(0, 0, 0, .09));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .09)), to(rgba(0, 0, 0, .09)));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .09), rgba(0, 0, 0, .09));
 }
 
@@ -1381,7 +1385,7 @@ blockquote {
   padding: 2px 10px;
   border: 1px solid #fc0;
   border-radius: 90px;
-  background-image: -webkit-linear-gradient(270deg, rgba(32, 39, 47, .96), rgba(32, 39, 47, .96));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 39, 47, .96)), to(rgba(32, 39, 47, .96)));
   background-image: linear-gradient(180deg, rgba(32, 39, 47, .96), rgba(32, 39, 47, .96));
   box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .1);
   font-family: 'Open Sans', sans-serif;
@@ -1394,7 +1398,7 @@ blockquote {
 .shop-btn {
   width: 30px;
   height: 40px;
-  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5)));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
 }
 
@@ -1443,7 +1447,7 @@ blockquote {
   border-color: rgba(255, 204, 0, .2);
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  background-image: -webkit-linear-gradient(270deg, rgba(32, 39, 47, .9), rgba(32, 39, 47, .9));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(32, 39, 47, .9)), to(rgba(32, 39, 47, .9)));
   background-image: linear-gradient(180deg, rgba(32, 39, 47, .9), rgba(32, 39, 47, .9));
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .2);
   font-family: Oswald, sans-serif;
@@ -1484,7 +1488,7 @@ blockquote {
   bottom: 0px;
   width: 35px;
   height: 31px;
-  background-image: url('../images/checked.svg'), -webkit-linear-gradient(270deg, #fc0, #fc0);
+  background-image: url('../images/checked.svg'), -webkit-gradient(linear, left top, left bottom, from(#fc0), to(#fc0));
   background-image: url('../images/checked.svg'), linear-gradient(180deg, #fc0, #fc0);
   background-position: 50% 50%, 0px 0px;
   background-size: 15px, auto;
@@ -1512,7 +1516,7 @@ blockquote {
   border-width: 1px;
   border-color: hsla(0, 0%, 58%, .2);
   border-radius: 86px;
-  background-image: url('../images/shopping-bag.svg'), -webkit-linear-gradient(270deg, #fc0, #fc0);
+  background-image: url('../images/shopping-bag.svg'), -webkit-gradient(linear, left top, left bottom, from(#fc0), to(#fc0));
   background-image: url('../images/shopping-bag.svg'), linear-gradient(180deg, #fc0, #fc0);
   background-position: 50% 50%, 0px 0px;
   background-size: 39%, auto;
@@ -1543,7 +1547,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 91px;
-  background-image: -webkit-linear-gradient(270deg, #20272f, #20272f);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#20272f), to(#20272f));
   background-image: linear-gradient(180deg, #20272f, #20272f);
   font-family: Oswald, sans-serif;
   color: #000;
@@ -1582,7 +1586,7 @@ blockquote {
   bottom: 0px;
   width: 100%;
   height: 4px;
-  background-image: -webkit-linear-gradient(0deg, #009246, #fff 49%, #ce2b37);
+  background-image: -webkit-gradient(linear, left top, right top, from(#009246), color-stop(49%, #fff), to(#ce2b37));
   background-image: linear-gradient(90deg, #009246, #fff 49%, #ce2b37);
 }
 
@@ -1591,6 +1595,22 @@ blockquote {
   top: 0px;
   right: 0px;
   bottom: auto;
+  background-image: -webkit-gradient(linear, left top, right top, from(#009246), color-stop(25%, #fff), color-stop(70%, #fff), to(#ce2b37));
+  background-image: linear-gradient(90deg, #009246, #fff 25%, #fff 70%, #ce2b37);
+}
+
+.custom-navbar {
+  background-color: #fff;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, .2);
+}
+
+.navlogo {
+  margin-top: 10px;
+  float: left;
+}
+
+.image-3 {
+  margin-top: 23px;
 }
 
 html.w-mod-js *[data-ix="shrink-on-load"] {
@@ -1749,6 +1769,7 @@ html.w-mod-js *[data-ix="slide-up-on-load"] {
     width: 50%;
   }
   .menu-background {
+    padding-top: 10px;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -1761,6 +1782,9 @@ html.w-mod-js *[data-ix="slide-up-on-load"] {
   .tab-link.w--current {
     width: 100%;
   }
+  .panier-totprice-wrapper {
+    margin-right: -20px;
+  }
 }
 
 @media (max-width: 479px) {
@@ -1771,6 +1795,10 @@ html.w-mod-js *[data-ix="slide-up-on-load"] {
   .content-wrapper.narrow {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .content-wrapper.menu {
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .hero {
     font-size: 50px;
@@ -1804,6 +1832,15 @@ html.w-mod-js *[data-ix="slide-up-on-load"] {
   ._33-percent-column.top-center.w--current {
     padding-top: 15px;
     padding-bottom: 15px;
+  }
+  .menu-transparent-bg {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .menu-background {
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .button {
     min-width: 180px;
